@@ -7,7 +7,7 @@ const encBase64 = require("crypto-js/enc-base64");
 const fileUpload = require("express-fileupload");
 // const cloudinary = require("cloudinary").v2;
 
-// console.log("trtrt");
+console.log("trtrt");
 
 // cloudinary.config({
 //   cloud_name: "dhutcvppv",
