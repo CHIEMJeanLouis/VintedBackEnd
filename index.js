@@ -4,6 +4,7 @@ const cloudinary = require("cloudinary").v2;
 const app = express();
 app.use(express.json());
 require("dotenv").config();
+const cors = require("cors");
 app.use(cors());
 
 mongoose.connect(process.env.MONGODB_URI);
